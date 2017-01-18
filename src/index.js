@@ -7,7 +7,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
- export default class {
+ export default class PRNG {
    constructor(seed = 1) {
      this.x = 0;
      this.seed = seed;
