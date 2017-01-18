@@ -11,29 +11,34 @@
 ### How to Install
 
 ```sh
-$ npm install rkgttr-prng
+$ npm install rkgttr-prng --save-dev
+```
+or
+
+```sh
+$ yarn add rkgttr-prng --dev
 ```
 
 ### Getting Started
 
-...
+```js
+var Prng = require('rkgttr-prng');
 
-### How to Test
-
-Run one, or a combination of the following commands to lint and test your code:
-
-```sh
-$ npm run lint          # Lint the source code with ESLint
-$ npm test              # Run unit tests with Mocha
-$ npm run test:watch    # Run unit tests with Mocha, and watch files for changes
-$ npm run test:cover    # Run unit tests with code coverage by Istanbul
+var prng = new Prng();
+prng.gen();
 ```
+or
 
-To launch the documentation site, run:
+```js
+import Prng from 'rkgttr-prng';
 
-```sh
-$ npm install -g easystatic
-$ npm start
+let prng = new Prng();
+prng.gen();
+```
+When creating a PRNG instance, you can pass a seed to it:
+
+```js
+let prng = new Prng(12);
 ```
 
 ### License
