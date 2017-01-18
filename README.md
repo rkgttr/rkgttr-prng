@@ -6,7 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/rkgttr/rkgttr-prng.svg?style=flat-square)](https://coveralls.io/rkgttr/rkgttr-prng)
 [![Dependency Status](http://img.shields.io/david/rkgttr/rkgttr-prng.svg?style=flat-square)](https://david-dm.org/rkgttr/rkgttr-prng)
 
-> Small and fast pseudo random number generator.
+> Small and fast pseudo random number generator. Not the most complex or bullet-proof of PRNGs out there, but fast and small when you want to have "predictable" random numbers. I don't know the period of this generator: I've run a script that generates a million numbers per second and after a day and a half (188 billions iterations) the sequence still did not repeat.  So I guess it's good enough.
 
 ### How to Install
 
