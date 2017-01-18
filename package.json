@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "rkgttr-prng",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Small and fast pseudo random number generator.",
   "repository": "rkgttr/rkgttr-prng",
   "author": "Erik Guittiere",
